@@ -3,7 +3,17 @@
 
 # ACS Plugin
 This first plugin located in src/components/ACSView.tsx shows mocked data (coming from ACS: Red Hat Advanced Cluster security for Kubernetes) into a custom view within the OpenShift console. Here a preview of what this looks like:
+
 <img width="1679" alt="image" src="https://user-images.githubusercontent.com/19349382/180446374-db14d43c-f16c-43bf-843a-03b34889afb1.png">
+
+
+
+# GitHub issues plugin
+
+This plugins gets issues from the GitHub api and displays them in a custom pages in OpenShift, to show an example of requesting REST data and displaying it in the console.
+
+<img width="2" alt="image" src="https://user-images.githubusercontent.com/19349382/180446759-8442c9de-4222-4adc-bcb3-4ff255d1c048.png">
+
 
 
 # OpenShift Console Plugin Template
