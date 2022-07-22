@@ -1,3 +1,11 @@
+
+#DISCLAIMER: this is experimental work to showcase how to extend the OpenShift Console with Dynamic Plugins (See below for details).
+
+# ACS Plugin
+This first plugin located in src/components/ACSView.tsx shows mocked data (coming from ACS: Red Hat Advanced Cluster security for Kubernetes) into a custom view within the OpenShift console. Here a preview of what this looks like:
+<img width="1679" alt="image" src="https://user-images.githubusercontent.com/19349382/180446374-db14d43c-f16c-43bf-843a-03b34889afb1.png">
+
+
 # OpenShift Console Plugin Template
 
 This project is a minimal template for writing a new OpenShift Console dynamic
