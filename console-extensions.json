@@ -1,0 +1,98 @@
+[
+  {
+    "type": "console.page/route",
+    "properties": {
+      "exact": true,
+      "path": "/example",
+      "component": { "$codeRef": "ExamplePage" }
+    }
+  },
+  {
+    "type": "console.navigation/href",
+    "properties": {
+      "id": "example",
+      "name": "Application360",
+      "href": "/example",
+      "perspective": "admin",
+      "section": "openshiftplus"
+    }
+  },
+  {
+    "type": "console.page/route",
+    "properties": {
+      "exact": true,
+      "path": "/acsview",
+      "component": { "$codeRef": "AcsView" }
+    }
+  },
+  {
+    "type": "console.page/route",
+    "properties": {
+      "exact": true,
+      "path": "/designpatterns",
+      "component": { "$codeRef": "DesignPatterns" }
+    }
+  },
+  {
+    "type": "console.page/route",
+    "properties": {
+      "exact": true,
+      "path": "/detailedview",
+      "component": { "$codeRef": "DetailedView" }
+    }
+  },
+  {
+    "type": "console.page/resource/tab",
+    "properties": {
+        "name": "ArgocdCustomTab",
+        "href": "example",
+        "model": {
+            "group": "core",
+            "version": "v1",
+            "kind": "Deployment"
+        },
+        "component": { "$codeRef": "ExamplePage" }
+    }
+  },
+  {
+    "type": "console.page/resource/tab",
+    "properties": {
+        "name": "AcsScanResults",
+        "href": "acsview",
+        "model": {
+            "group": "core",
+            "version": "v1",
+            "kind": "ImageStream"
+        },
+        "component": { "$codeRef": "AcsView" }
+    }
+  },
+  {
+    "type": "console.navigation/href",
+    "properties": {
+      "id": "acsview",
+      "name": "ACS Security",
+      "href": "/acsview",
+      "perspective": "admin",
+      "section": "openshiftplus"
+    }
+  },
+  {
+    "type": "console.navigation/href",
+    "properties": {
+      "id": "designpatterns",
+      "name": "Jaafar's Design Patterns",
+      "href": "/designpatterns",
+      "perspective": "admin",
+      "section": "openshiftplus"
+    }
+  },
+  {
+    "type": "console.navigation/section",
+    "properties": {
+      "id": "openshiftplus",
+      "name": "MyCustomPlugins",
+      "perspective": "admin"
+    }
+  }
+]
