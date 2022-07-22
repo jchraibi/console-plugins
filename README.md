@@ -10,9 +10,10 @@ This first plugin located in src/components/ACSView.tsx shows mocked data (comin
 
 # GitHub issues plugin
 
-This plugins gets issues from the GitHub api and displays them in a custom pages in OpenShift, to show an example of requesting REST data and displaying it in the console.
+This second plugin, located in src/components/ExamplePage.tsx gets issues from the GitHub api and displays them in a custom pages in OpenShift, to show an example of requesting REST data and displaying it in the console. This is a preview of what it looks like:
 
-<img width="2" alt="image" src="https://user-images.githubusercontent.com/19349382/180446759-8442c9de-4222-4adc-bcb3-4ff255d1c048.png">
+<img width="1679" alt="image" src="https://user-images.githubusercontent.com/19349382/180446864-a70c6f7a-b2cd-458f-884b-141098dce3e5.png">
+
 
 
 
